@@ -139,6 +139,12 @@ main a:visited {
 	padding-top: 10px;
 }
 
+#home #wrapper aside figure img {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+
 @media only screen and (min-width:710px) {
 
 	/* header */
@@ -237,7 +243,8 @@ main a:visited {
 		grid-template-rows: 4em auto;
 	}
 
-	#home #wrapper aside h2 {
+	#home #wrapper aside h2,
+	#home #wrapper aside figure {
 		grid-column: 1/-1;
 	}
 
